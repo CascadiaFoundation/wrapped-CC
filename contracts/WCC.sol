@@ -15,7 +15,7 @@
 
 pragma solidity >=0.4.22 <0.6;
 
-contract WETH9 {
+contract WCC {
     string public name     = "Wrapped CC";
     string public symbol   = "WCC";
     uint8  public decimals = 18;
