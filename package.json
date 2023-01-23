@@ -23,7 +23,10 @@
   "description": "Canonical WETH package (see https://blog.0xproject.com/canonical-weth-a9aa7d0279dd)",
   "version": "1.4.0",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.5",
+    "dotenv": "^16.0.3"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gnosis/canonical-weth.git"
